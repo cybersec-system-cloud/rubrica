@@ -8,7 +8,7 @@ public class NumeroTelefono {
     private String nome;
     private String numero;
     
-    public NumeroTelefono() {}
+    public NumeroTelefono() { }
     
     public NumeroTelefono(String cognome, String nome, String numero){
         this.cognome = cognome;

@@ -17,8 +17,8 @@ import javax.ws.rs.core.MediaType;
 @Produces(MediaType.APPLICATION_JSON)
 public class Rubrica {
 
-    private String nomePredefinito;
-    private List<NumeroTelefono> numeri;
+    private final String nomePredefinito;
+    private final List<NumeroTelefono> numeri;
     
     public Rubrica(String nomePredefinito) {
         this.nomePredefinito = nomePredefinito;
